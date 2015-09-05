@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\workspace\workspace_self\note-play\conf\application.conf,D:\workspace\workspace_self\note-play\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\workspace\workspace_self\note-play\conf\evolutions,D:\workspace\workspace_self\note-play\target\scala-2.11\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(D:\workspace\workspace_self\note-play\conf\logback.xml,D:\workspace\workspace_self\note-play\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(D:\workspace\workspace_self\note-play\conf\routes,D:\workspace\workspace_self\note-play\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(D:\workspace\workspace_self\note-play\conf\evolutions\default,D:\workspace\workspace_self\note-play\target\scala-2.11\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(D:\workspace\workspace_self\note-play\conf\evolutions\default\1.sql,D:\workspace\workspace_self\note-play\target\scala-2.11\classes\evolutions\default\1.sql)[0m
+[0m[[0mdebug[0m] [0m	(D:\workspace\workspace_self\note-play\conf\evolutions\default\notused.sql,D:\workspace\workspace_self\note-play\target\scala-2.11\classes\evolutions\default\notused.sql)[0m

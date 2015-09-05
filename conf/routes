@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET         /                    controllers.Application.index()
+POST        /user                com.yl.note.controllers.UserService.createUser()
+POST        /login               com.yl.note.controllers.UserService.login()
+GET         /users               com.yl.note.controllers.UserService.getUserList()
+
+POST        /tag                 com.yl.note.controllers.TagService.addTag()
+GET         /tags                com.yl.note.controllers.TagService.listTags()
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file        controllers.Assets.versioned(path="/public", file: Asset)

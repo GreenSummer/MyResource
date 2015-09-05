@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+            <head>
+            <meta charset="utf-8">
+   		<title>注册</title>
+    <link href="register-css/register.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div id="container">
+<div class="register-info-input custom-step-one">
+  <h2>注册账号</h2>
+	<div class="border-line"></div>
+	<form method="post" id="register-form">		
+		<table>
+			<tr>
+				<td class="desc">登录邮箱：</td>
+				<td class="value"><input type="text" name="email" value="" id="ur-email-input" class="ur-input" /></td>
+				<td class="value"><i class="i-tx i-show-warning hide"></i><span class="warning hide"></span></td>
+			</tr>
+			<tr>
+				<td class="desc">登录密码：</td>
+				<td class="value"><input type="password" name="password" value="" id="ur-password-input-1" class="ur-input" /></td>
+				<td class="value"><i class="i-tx i-show-warning hide"></i><span class="warning hide"></span></td>
+			</tr>
+			<tr>
+				<td class="desc">再输入一次：</td>
+				<td class="value"><input type="password" name="passwordCheck" value="" id="ur-password-input-2" class="ur-input" /></td>
+				<td class="value"><i class="i-tx i-show-warning hide"></i><span class="warning hide"></span></td>
+			</tr>
+			<tr>
+				<td class="desc">验证码：</td>
+				<td class="value"><input type="text" name="vcode" value="" id="ur-vcode" class="ur-input" /></td>
+				<td class="value"><img src="/user/vcode.jpg" id="vcode-img"/></td>
+				<td class="value">
+					<a href="javascript:void(0)" id="reg-vcode">看不清？换一张</a>
+				</td>
+			</tr>
+			<tr class="vcode-error" style="height:0;">
+				<td class="desc"></td>
+				<td class="value"><i class="i-tx i-show-warning hide"></i><span class="warning hide"></span> </td>
+			</tr>
+			
+			<tr>
+				<td class="desc"></td>
+				<td class="value"><input type="button" value="注册" id="tx-register-btn" /></td>
+			</tr>
+		</table>
+	</form>
+</div>
+
+
+
+
+</body>    </html>
+
